@@ -75,7 +75,7 @@ h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url("https://codeinstitute.s3.amazonaws.com/CSSEssentials/hero-image.webp") no-repeat center center;
+    background: url("../images/hero-image.webp") no-repeat center center;
 
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -185,4 +185,13 @@ hr {
     background: url('../images/ethos-center-image.jpg');
     height: 100%;
     border-radius: 50%;
+}
+
+/* event times */
+
+#times{
+    background: url('../images/dublin-city.webp') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
 }
