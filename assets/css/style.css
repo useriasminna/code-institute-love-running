@@ -158,21 +158,21 @@ hr {
     margin-bottom: 50px;
 }
 
-.right-about-heading h2{
+.right-about-heading h2 {
     text-align: right;
 }
 
-.right-about-heading p{
+.right-about-heading p {
     text-align: right;
 }
 
-#welcome{
+#welcome {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
 }
 
-#circle-container{
+#circle-container {
     width: 300px;
     height: 300px;
     padding: 30px;
@@ -181,7 +181,7 @@ hr {
     margin: 0 auto;
 }
 
-#circle-cover-bg{
+#circle-cover-bg {
     background: url('../images/ethos-center-image.jpg') center center;
     height: 100%;
     border-radius: 50%;
@@ -189,16 +189,16 @@ hr {
 
 /* event times */
 
-#times{
+#times {
     background: url('../images/dublin-city.webp') no-repeat center center;
     background-size: cover;
     width: 100%;
     overflow: hidden;
 }
 
-#times div{
+#times div {
     color: #fafafa;
-    background-color: rgba(0,0,0, .6);
+    background-color: rgba(0, 0, 0, .6);
     width: 20%;
     height: 300px;
     float: left;
@@ -214,21 +214,21 @@ hr {
 
 /* footer */
 
-footer{
+footer {
     height: 150px;
 }
 
-.social-networks{
+.social-networks {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
 .social-networks i {
     font-size: 160%;
-    margin:  1%;
+    margin: 1%;
     padding: 5%;
     color: #3a3a3a;
 }
@@ -242,13 +242,13 @@ footer{
     column-gap: 0px;
 }
 
-#photos > img{
+#photos>img {
     width: 100%;
 }
 
 /* Media queries */
 /*For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
         height: 1200px;
@@ -260,8 +260,9 @@ footer{
         margin: 0;
     }
 
-    #left-about, #right-about {
-        width:  100%;
+    #left-about,
+    #right-about {
+        width: 100%;
         float: left;
         padding: 0;
     }
@@ -273,7 +274,19 @@ footer{
         padding: 0;
     }
 
-    hr{
+    hr {
         display: none;
+    }
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 }
